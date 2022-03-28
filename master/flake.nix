@@ -11,7 +11,6 @@
   inputs.src-gpx-master.ref   = "refs/heads/master";
   inputs.src-gpx-master.owner = "achesak";
   inputs.src-gpx-master.repo  = "nim-gpx";
-  inputs.src-gpx-master.dir   = "";
   inputs.src-gpx-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
